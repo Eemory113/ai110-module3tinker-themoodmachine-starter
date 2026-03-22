@@ -23,6 +23,18 @@ POSITIVE_WORDS = [
     "chill",
     "relaxed",
     "amazing",
+    "nice",
+    "wonderful",
+    "excellent",
+    "beautiful",
+    "cool",
+    "fantastic",
+    "lovely",
+    "perfect",
+    "awesome",
+    "brilliant",
+    "delightful",
+    "fabulous",
 ]
 
 NEGATIVE_WORDS = [
@@ -50,6 +62,23 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "lowkey stressed but kind of proud of myself",
+    "no cap this is fire 🔥",
+    "I'm literally dying 💀 this is so funny",
+    "not the traffic again :(",
+    "feeling blessed but also kinda tired",
+    "this food hits different fr fr",
+    "I'm so done with everything 😩",
+    "Actually this isn't that bad? pleasantly surprised :)",
+    "highkey obsessed with this song ngl",
+    "same energy as stepping on a lego tbh 😬",
+    "It ain't bad",
+    "I guess it's okay",
+    "whatever 🙃",
+    "could be worse",
+    "I'm not mad just disappointed",
+    "it is what it is",
+    "The vibe is off ngl",
 ]
 
 # Human labels for each post above.
@@ -65,6 +94,23 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "mixed",     # "lowkey stressed but kind of proud of myself"
+    "positive",  # "no cap this is fire 🔥"
+    "positive",  # "I'm literally dying 💀 this is so funny"
+    "negative",  # "not the traffic again :("
+    "mixed",     # "feeling blessed but also kinda tired"
+    "positive",  # "this food hits different fr fr"
+    "negative",  # "I'm so done with everything 😩"
+    "mixed",     # "Actually this isn't that bad? pleasantly surprised :)"
+    "positive",  # "highkey obsessed with this song ngl"
+    "negative",  # "same energy as stepping on a lego tbh 😬"
+    "positive",  # "It ain't bad" (double negative = positive, despite containing "bad")
+    "neutral",   # "I guess it's okay" (lukewarm, minimal enthusiasm)
+    "negative",  # "whatever 🙃" (dismissive tone masked by emoji)
+    "mixed",     # "could be worse" (backhanded positivity)
+    "negative",  # "I'm not mad just disappointed" (denying anger but expressing disappointment)
+    "neutral",   # "it is what it is" (resignation/acceptance)
+    "negative",  # "The vibe is off ngl" (subtle negativity)
 ]
 
 # TODO: Add 5-10 more posts and labels.
