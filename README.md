@@ -65,3 +65,6 @@ During this lab you will:
 - When debugging, print tokens, scores, or intermediate choices.
 - Ask an AI assistant to help create edge case posts or unusual wording.
 - Try examples that mislead or confuse your model. Failure cases teach you the most.
+
+## TF summary
+The main idea of this tinker activity is to get students more familier with how training machine learning models work. This is both done by having the students work on a rule based model and a machine learning based model so the students can see the diffrence between the two and to identify the shortcomings of both. I think students are going to have issues with is getting both models to understand phrases that are mixed in nature such as "it ain't all bad". The AI did a great job at filling in mood analyzers based on my description but what it did struggle with for me was leaving some words out such as "Nice", i felt like it focused too much on strong words without taking to account weaker words. I think the main thing i can do for students is to help bounce ideas with them, I would try to get them thinking on the right track in regards to how machine learning thinks, maybe even give them some real world examples based on my own experiance with AI.
